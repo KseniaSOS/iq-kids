@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Patua+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
-    font-family: Arial;
+    font-family: 'Patua One', cursive;
+    font-weight: 400;
 }
