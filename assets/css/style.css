@@ -7,6 +7,46 @@
 }
 
 body {
-    font-family: 'Patua One', cursive;
+    font-family: 'Maven Pro', sans-serif;
     font-weight: 400;
+    color: #2c3e50;
+}
+
+/* logo and navigation links*/
+
+#logo {
+    float: left;
+    margin-left: 40px;
+}
+
+#menu {
+    font-size: 110%;
+    font-family: 'Patua One', cursive;
+    color: #2c3e50;
+    ;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#menu,
+#logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #2c3e50;
+}
+
+.active {
+    border-bottom: 1px solid #2c3e50;
 }
