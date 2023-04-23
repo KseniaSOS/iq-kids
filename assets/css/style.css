@@ -50,12 +50,15 @@ body {
     border-bottom: 1px solid #2c3e50;
 }
 
-/* main image */
+/*hero image */
 
-#main-image {
-    height: 600px;
-    width: 100%;
-    background-image: url('../images/');
-    background-repeat: no-repeat;
-    background-position: center;
+#hero-image {
+    background: url('../images/hero-image.jpg') no-repeat center center;
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
 }
