@@ -6,17 +6,19 @@
     border: none;
 }
 
+
 body {
     font-family: 'Maven Pro', sans-serif;
     font-weight: 400;
     color: #2c3e50;
+    font-size: 35px;
 }
 
 /* logo and navigation links*/
 
 #logo {
     float: left;
-    margin-left: 40px;
+    margin: 20px 40px;
 }
 
 #menu {
@@ -52,7 +54,8 @@ body {
 
 /*hero image */
 
-#hero-image {
+
+#hero {
     background: url('../images/hero-image.jpg') no-repeat center center;
     width: 100vw;
     height: 80vh;
@@ -62,3 +65,32 @@ body {
     text-align: center;
     background-size: cover;
 }
+
+/* the code has been taken and modifed from CI Love Running project  */
+
+#cover-text,
+#cover-text h3 {
+    color: #b33939;
+}
+
+#cover-text {
+    font-size: 110%;
+    font-family: 'Patua One', cursive;
+    color: #b33939;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+
+/* about us */
+
+h1 {
+    font-size: 110%;
+    font-family: 'Patua One', cursive;
+    color: #2c3e50;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* #about-us {} */
