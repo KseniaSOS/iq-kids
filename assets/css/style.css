@@ -141,16 +141,18 @@ h1 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-size: cover;
+    background-size: cover;    
+}
 
+.copyright {
+    font-size: small;
+    text-align: center;
 }
 
 /* map */
 
 #map-wrapper {
-
     height: 300px;
-    /* margin-bottom: 107px; */
 }
 
 #map {
@@ -159,4 +161,24 @@ h1 {
     border: none;
 }
 
+/* social media */
+
+footer{
+    height: 60px;
+}
+
+.social {
+    text-align: center;
+}
+/* porpobovatj dlja about us */
+.social > li {
+    display: inline;
+}
+
+.social i {
+    font-size: 130%;
+    margin: 0.5%;
+    padding: 0.5%;
+    color: #2c3e50;
+}
 
