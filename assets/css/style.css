@@ -131,6 +131,20 @@ h1 {
     display: flex;
 }  */ 
 
+/* contact */
+
+#contact {
+    background-image: url('../images/contact.jpg');
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+
+}
+
 /* map */
 
 #map-wrapper {
