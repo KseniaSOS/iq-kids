@@ -150,7 +150,7 @@ h1 {
 #map-wrapper {
 
     height: 300px;
-    margin-bottom: 107px;
+    /* margin-bottom: 107px; */
 }
 
 #map {
@@ -158,3 +158,5 @@ h1 {
     width: 100%;
     border: none;
 }
+
+
