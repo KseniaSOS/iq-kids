@@ -12,6 +12,7 @@ body {
     font-weight: 400;
     color: #2c3e50;
     font-size: 35px;
+    /* background-color: #ffeaa7; */
 }
 
 /* logo and navigation links*/
@@ -56,7 +57,7 @@ body {
 
 
 #hero {
-    background: url('../images/hero-image.jpg') no-repeat center center;
+    background: url('../images/hero-image10.jpg') no-repeat center center;
     width: 100vw;
     height: 80vh;
     display: flex;
@@ -79,6 +80,7 @@ body {
     color: #b33939;
     letter-spacing: 2px;
     text-transform: uppercase;
+    /* justify-content: flex-start; */
 
 }
 
@@ -93,4 +95,14 @@ h1 {
     text-transform: uppercase;
 }
 
-/* #about-us {} */
+#about-us {
+    margin: 40px;
+    text-align: center;
+
+}
+
+#image-about-us {
+    width: 500px;
+    height: 500px;
+    border-radius: 40px;
+}
