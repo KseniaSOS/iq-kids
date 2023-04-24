@@ -80,12 +80,23 @@ body {
     color: #b33939;
     letter-spacing: 2px;
     text-transform: uppercase;
-    /* justify-content: flex-start; */
-
 }
 
 
 /* about us */
+
+.container {
+    padding: 20px;
+}
+
+#about-us {
+    max-width: 1144px;
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 40px;
+    padding: 40px;
+}
 
 h1 {
     font-size: 110%;
@@ -95,41 +106,17 @@ h1 {
     text-transform: uppercase;
 }
 
-/* #about-us h1{
-    padding: 90px;
-    text-align: center;
+.about-us-text {
+    display: grid;
+    gap: 32px;
+    align-content: center;
+    padding-right: 20px;
 }
-#about-us div {
-    display: block;
-    height: auto;
-    align-items: center;
-}
-/
- #image-about-us {
+
+#image-about-us {
     border-radius: 40px;
-    /* width: 100%; */
-    /* margin: 10%;    
-} 
-
-#about-us-text {
-    width: 500px;
-    height: 350px;
-    padding: 50px;
-    text-align: left;
-    border: #2c3e50 solid 2px;
-    border-radius: 40px; 
-    float: right; 
-    
-} 
-
-#about-us div {
-    float: left;
-    padding: 30px 0 0 30px;
-    height: 500px;
-    text-align: left;
-    box-sizing: border-box;
-    display: flex;
-}  */ 
+    padding-left: 20px;
+}
 
 /* contact */
 
@@ -141,8 +128,10 @@ h1 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-size: cover;    
+    background-size: cover;
+    margin-top: 0.5%;
 }
+
 
 .copyright {
     font-size: small;
@@ -163,15 +152,17 @@ h1 {
 
 /* social media */
 
-footer{
+footer {
     height: 60px;
+
 }
 
 .social {
     text-align: center;
 }
+
 /* porpobovatj dlja about us */
-.social > li {
+.social>li {
     display: inline;
 }
 
@@ -181,4 +172,3 @@ footer{
     padding: 0.5%;
     color: #2c3e50;
 }
-
