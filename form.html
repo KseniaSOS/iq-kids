@@ -36,6 +36,35 @@
             </ul>
         </nav>
     </header>
+    <section id="form-container">
+        <form action="./form.html" method="POST" class="signup-form">
+            <h1>Sign Up</h1>
+            <h4>What program do you choose? </h4>
+            <label for="first">First</label>
+            <input type="radio" id="first" name="program_preference" value="first" required>
+
+            <label for="second">Second</label>
+            <input type="radio" id="second" name="program_preference" value="second" required>
+
+            <label for="third">Third</label>
+            <input type="radio" id="third" name="program_preference" value="third" required><br>
+
+            <label for="cild-name">Child Name</label>
+            <input id="child-name" type="text" class="text-input" required>
+
+            <label for="age">Child Age</label>
+            <input id="age" type="text" class="text-input" required>
+
+            <label for="parent-name">Parent Name</label>
+            <input id="parent-name" type="text" class="text-input" required>
+
+            <label for="email">Email</label>
+            <input id="email" type="email" class="text-input" required>
+
+            <input class="signup-button" type="submit" value="Sign Up">
+
+        </form>
+    </section>
 
 
     <!-- the code has been taken and modified from CI Love Running project -->
