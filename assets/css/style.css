@@ -12,7 +12,6 @@ body {
     font-weight: 400;
     color: #2c3e50;
     font-size: 35px;
-    /* background-color: #ffeaa7; */
 }
 
 /* logo and navigation links*/
@@ -65,7 +64,7 @@ body {
     height: 80vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     text-align: center;
     background-size: cover;
 }
@@ -73,16 +72,17 @@ body {
 /* the code has been taken and modified from CI Love Running project  */
 
 #cover-text,
-#cover-text h3 {
+#cover-text h1 {
     color: #b33939;
 }
 
 #cover-text {
-    font-size: 110%;
+    font-size: 150%;
     font-family: 'Patua One', cursive;
     color: #b33939;
     letter-spacing: 2px;
     text-transform: uppercase;
+    margin-top: 35px;
 }
 
 
@@ -93,12 +93,12 @@ body {
 }
 
 #about-us {
-    max-width: 1144px;
+
     display: grid;
     gap: 32px;
     grid-template-columns: repeat(2, 1fr);
     margin: 40px;
-    padding: 40px;
+    padding: 60px;
 }
 
 h1 {
@@ -125,7 +125,6 @@ h1 {
 
 #contact {
     background-image: url('../images/contact.jpg');
-    width: 100vw;
     height: 40vh;
     display: flex;
     justify-content: center;
@@ -133,6 +132,7 @@ h1 {
     text-align: center;
     background-size: cover;
     margin-top: 0.5%;
+    width: 100%;
 }
 
 
@@ -157,7 +157,6 @@ h1 {
 
 footer {
     height: 60px;
-
 }
 
 .social {
