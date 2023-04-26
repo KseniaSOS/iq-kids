@@ -282,3 +282,46 @@ footer {
     background-color: #c0392b;
     color: #2c3e50;
 }
+
+/* programs html */
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: #ecf0f1;
+    width: 220px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+    font-size: large;
+}
+
+.card-image {
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.group-1 {
+    background-image: url('../images/group-1.jpg');
+}
+
+.group-2 {
+    background-image: url('../images/group-2.jpg');
+}
+
+.group-3 {
+    background-image: url('../images/group-3.jpg');
+}
+
+.card h2 {
+    padding: 10px;
+}
+
+.card p {
+    padding: 10px;
+}
