@@ -121,37 +121,73 @@ h1 {
     padding-left: 20px;
 }
 
-/* contact */
+/* contact and map*/
+.container {
+    padding: 20px;
+}
+
+#contact-map {
+    background-image: url('../images/contact.jpg');
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 40px;
+    padding: 60px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 110%;
+    font-family: 'Patua One', cursive;
+    color: #2c3e50;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
 
 #contact {
+    display: grid;
+    gap: 32px;
+    align-content: center;
+    padding-right: 20px;
+}
+
+#map-wrapper {
+    border-radius: 40px;
+    width: 100%;
+}
+
+/* #contact {
+    width: 50%;
+    height: 450px;
+    font-size: medium;
+    float: left;
+    position: absolute;
+    box-sizing: border-box;
+
+}
+
+#contact-map {
     background-image: url('../images/contact.jpg');
     height: 40vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     background-size: cover;
     margin-top: 0.5%;
     width: 100%;
+
 }
-
-
-.copyright {
-    font-size: small;
-    text-align: center;
-}
-
-/* map */
 
 #map-wrapper {
-    height: 300px;
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: unset;
+    border-radius: 7px;
 }
 
-#map {
-    height: 100%;
+iframe {
     width: 100%;
-    border: none;
-}
+    height: 100%;
+} */
 
 /* social media */
 
@@ -173,6 +209,11 @@ footer {
     margin: 0.5%;
     padding: 0.5%;
     color: #2c3e50;
+}
+
+.copyright {
+    font-size: small;
+    text-align: center;
 }
 
 /* sign up form */
