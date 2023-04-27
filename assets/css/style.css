@@ -262,7 +262,24 @@ footer {
     color: #2c3e50;
 }
 
-/* programs html */
+/* formdestination */
+
+.thank-you {
+    margin: 30px 20% 30 0;
+    color: #2c3e50;
+    background-color: #daa947;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+    max-width: 400px;
+    border-radius: 24px;
+    font-size: 25px;
+    border: 2px solid;
+
+}
+
+
+/* our programs */
 
 .text-center {
     text-align: center;
