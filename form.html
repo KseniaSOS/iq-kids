@@ -38,16 +38,7 @@
     </header>
     <section id="form-container">
         <form action="./form.html" method="POST" class="signup-form">
-            <h1>Sign Up</h1>
-            <h4>What program do you choose? </h4>
-            <label for="first">First</label>
-            <input type="radio" id="first" name="program_preference" value="first" required>
-
-            <label for="second">Second</label>
-            <input type="radio" id="second" name="program_preference" value="second" required>
-
-            <label for="third">Third</label>
-            <input type="radio" id="third" name="program_preference" value="third" required><br>
+            <h1>Sign Up <i class="fas fa-user-edit"></i></h1>
 
             <label for="cild-name">Child Name</label>
             <input id="child-name" type="text" class="text-input" required>
@@ -60,6 +51,16 @@
 
             <label for="email">Email</label>
             <input id="email" type="email" class="text-input" required>
+
+            <h2>What program do you choose?</h2>
+            <label for="first">1</label>
+            <input type="radio" id="first" name="program_preference" value="first" required>
+
+            <label for="second">2</label>
+            <input type="radio" id="second" name="program_preference" value="second" required>
+
+            <label for="third">3</label>
+            <input type="radio" id="third" name="program_preference" value="third" required>
 
             <input class="signup-button" type="submit" value="Sign Up">
 
