@@ -24,10 +24,10 @@ body {
 }
 
 #menu {
-    font-size: 110%;
+    font-size: 80%;
     font-family: 'Patua One', cursive;
     color: #2c3e50;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-transform: uppercase;
 }
 
@@ -39,7 +39,7 @@ body {
 #menu li {
     float: right;
     list-style-type: none;
-    margin: 30px 40px;
+    margin: 20px 20px;
 }
 
 #menu a {
@@ -59,17 +59,17 @@ body {
 
 /*hero image */
 
-
 #hero {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
     background: linear-gradient(rgb(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url('../images/hero-image10.jpg') no-repeat center center;
-    width: 100vw;
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
-    text-align: center;
-    background-size: cover;
-    max-width: 100%;
+
 }
 
 /* the code has been taken and modified from CI Love Running project  */
@@ -96,7 +96,6 @@ body {
 }
 
 #about-us {
-
     display: grid;
     gap: 32px;
     grid-template-columns: repeat(2, 1fr);
@@ -122,6 +121,8 @@ h1 {
 #image-about-us {
     border-radius: 40px;
     padding-left: 20px;
+    background-size: cover;
+    height: 100%;
 }
 
 /* contact and map*/
@@ -133,7 +134,6 @@ h1 {
     align-items: center;
     width: 100%;
     height: 100%;
-    padding: 20px 100px;
 }
 
 .contact-container:after {
@@ -180,45 +180,7 @@ h1 {
     height: 4px;
     width: 50px;
     border-radius: 2px;
-
 }
-
-
-/* .container {
-    padding: 20px;
-}
-
-#contact-map {
-    background-color: #daa947;
-    display: grid;
-    gap: 32px;
-    grid-template-columns: repeat(2, 1fr);
-    margin: 20px 0px;
-    max-width: 100%;
-}
-
-h1 {
-    font-size: 110%;
-    font-family: 'Patua One', cursive;
-    color: #2c3e50;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-
-#contact {
-    display: grid;
-    gap: 32px;
-    align-content: center;
-    padding-right: 20px;
-}
-
-#map-wrapper {
-    width: 100%;
-}
-
-iframe {
-    height: 100%;
-} */
 
 
 /* social media */
@@ -376,7 +338,6 @@ footer {
     margin-bottom: 15px;
     background-size: cover;
     border-radius: 15px 15px 0 0;
-    background-size: cover;
 }
 
 .group-1 {
@@ -398,8 +359,36 @@ li {
 
 
 /* media queries */
+/* moyno poprobivatj ubratj u contact box max width v style i height u left map v @  4to bi drug na druga ne nakladivalisj pro iymenenii ekrana*/
+
+/* For larger to medium screens size */
+@media screen and (max-width:950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 25px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+
+}
+
+@media screen and (max-width:1155px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 25px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+
+}
 
 @media screen and (max-width:880px) {
+
+
     .contact-box {
         grid-template-columns: 1fr;
     }
@@ -407,5 +396,7 @@ li {
     .left-map {
         height: 200px;
     }
+
+
 
 }
