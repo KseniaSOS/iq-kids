@@ -235,7 +235,8 @@ footer {
 }
 
 
-.signup-form .thank-you {
+.signup-form,
+.thank-you {
     margin: 30px 20% 30 0;
     color: #2c3e50;
     background-color: #daa947;
@@ -421,6 +422,15 @@ li {
         font-size: 20px;
     }
 
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 25px;
+        margin-bottom: 20px;
+        line-height: 25px;
+        font-size: 80%;
+    }
+
     #image-about-us {
         width: 100%;
         height: auto;
@@ -435,7 +445,16 @@ li {
 @media screen and (max-width:535px) {
 
 
+
     iframe {
         width: 100%;
     }
+}
+
+@media screen and (max-width:535px) {
+    #menu li {
+        margin: 6px;
+        padding: 0;
+    }
+
 }
