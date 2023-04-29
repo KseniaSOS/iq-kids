@@ -106,7 +106,8 @@ body {
     gap: 32px;
     grid-template-columns: repeat(2, 1fr);
     margin: 40px;
-    padding: 60px;
+    padding-bottom: 40px;
+    /* padding: 60px; */
 }
 
 h1 {
@@ -160,7 +161,7 @@ h1 {
 }
 
 .left-map {
-    /* height: 100%; */
+
     background: no-repeat center;
     background-size: cover;
 }
@@ -230,13 +231,15 @@ footer {
     background-size: cover;
     padding: 50px 0px;
     background-image: url('../images/form-image.jpg');
+    box-shadow: 0px 1px 10px rgba(0, 0, 1, 1.2);
 }
 
 
-.signup-form {
+.signup-form .thank-you {
     margin: 30px 20% 30 0;
     color: #2c3e50;
     background-color: #daa947;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 1);
     position: absolute;
     left: 10%;
     padding: 30px;
@@ -366,10 +369,10 @@ li {
 
 /* media queries */
 
-
 @media screen and (max-width:1450px) {
     #about-us {
         grid-template-columns: 1fr;
+
     }
 
     .contact-box {
@@ -389,7 +392,6 @@ li {
 
 }
 
-
 @media screen and (max-width:950px) {
     #menu {
         clear: left;
@@ -397,7 +399,7 @@ li {
         margin-left: 25px;
         margin-bottom: 20px;
         line-height: 25px;
-        font-size: 60%;
+        font-size: 80%;
     }
 
     #menu li {
@@ -406,20 +408,34 @@ li {
 
     .container {
         width: 90%;
-        height: 1200px;
     }
 
     body {
-        font-size: 20px;
+        font-size: 35px;
     }
 
 }
 
+@media screen and (max-width:655px) {
+    body {
+        font-size: 20px;
+    }
+
+    #image-about-us {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    iframe {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:535px) {
 
 
-/* @media screen and (max-width:880px) {
-
-
-
-
-} */
+    iframe {
+        width: 100%;
+    }
+}
