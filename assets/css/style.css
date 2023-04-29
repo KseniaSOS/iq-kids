@@ -132,7 +132,7 @@ h1 {
 
 /* contact and map*/
 
-.contact-container {
+#contact-container {
     position: relative;
     display: flex;
     justify-content: center;
@@ -141,7 +141,7 @@ h1 {
     height: 100%;
 }
 
-.contact-container:after {
+#contact-container:after {
     content: '';
     position: absolute;
     left: 0;
