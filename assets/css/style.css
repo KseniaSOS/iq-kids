@@ -110,7 +110,7 @@ body {
     /* padding: 60px; */
 }
 
-h1 {
+h2 {
     font-size: 110%;
     font-family: 'Patua One', cursive;
     color: #2c3e50;
@@ -170,13 +170,13 @@ h1 {
     padding: 25px 40px;
 }
 
-.right-text h1 {
+.right-text h2 {
     position: relative;
     padding-bottom: 10px;
     margin-bottom: 10px;
 }
 
-.right-text h1:after {
+.right-text h2:after {
     content: '';
     position: absolute;
     left: 50%;
@@ -251,13 +251,13 @@ footer {
 }
 
 
-.signup-form h1 {
+.signup-form h2 {
     color: #2c3e50;
     margin-bottom: 20px;
 }
 
-.signup-form h2 {
-    font-size: 25px;
+#program-choose {
+    font-size: 20px;
 }
 
 .text-input {
