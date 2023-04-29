@@ -428,7 +428,7 @@ li {
         margin-left: 25px;
         margin-bottom: 20px;
         line-height: 25px;
-        font-size: 80%;
+        font-size: 85%;
     }
 
     #image-about-us img {
@@ -455,6 +455,15 @@ li {
     #menu li {
         margin: 6px;
         padding: 0;
+    }
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 5px;
+        margin-bottom: 20px;
+        line-height: 25px;
+        font-size: 75%;
     }
 
 }
