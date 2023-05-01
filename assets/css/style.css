@@ -63,19 +63,17 @@ body {
     height: 600px;
     overflow: hidden;
     box-shadow: 0px 1px 10px rgba(0, 0, 0.5, 1);
-
 }
 
 #hero-image {
     height: 600px;
     width: 100%;
     background: linear-gradient(rgb(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url('../images/hero-image10.jpg') no-repeat center center;
-
 }
 
 #cover-text,
 #cover-text h1 {
-    color: #252424;
+    color: #daa947;
 }
 
 #cover-text {
@@ -87,6 +85,7 @@ body {
     position: absolute;
     text-align: center;
     padding-left: 18%;
+    text-shadow: 0 3px 0px #252424, 0 10px 0 #ECF0EF;
 }
 
 /* about us */
@@ -162,7 +161,6 @@ body {
     border-radius: 2px;
 }
 
-
 /* social media */
 
 footer {
@@ -172,7 +170,6 @@ footer {
 .social {
     text-align: center;
 }
-
 
 .social>li {
     display: inline;
@@ -249,10 +246,6 @@ footer {
 li {
     padding: 10px;
 }
-
-
-
-
 
 /* sign up form */
 
