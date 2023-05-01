@@ -20,6 +20,7 @@ Visit the live website <a href="https://kseniasos.github.io/iq-kids/" target="_b
 - [Technologies Used](#technologies-used)
 - [Testing](#testing)
   - [Code Validation](#code-validation)
+  - [Responsiveness Test](#responsiveness-test)
   - [Browser Compatibility](#browser-compatibility)
   - [Known Bugs](#known-bugs)
   - [Additional Testing](#additional-testing)
@@ -31,6 +32,7 @@ Visit the live website <a href="https://kseniasos.github.io/iq-kids/" target="_b
 - [Credits](#credits)
     - [Content](#content)
     - [Media](#media)
+    - [Acknowledgements](#acknowledgements)
 
 # User Experience (UX)
 
@@ -190,9 +192,20 @@ The CSS validator results are below:
 
 [Back to top](<#contents>)
 
+## Responsiveness Test
+
+* The responsive design tests were carried out manually with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [Responsive Design Checker](https://www.responsivedesignchecker.com/).
+
+|        | Moto G4 | Galaxy S5 | iPhone 5 | iPad | iPad Pro | Display <1200px | Display >1200px |
+|--------|---------|-----------|----------|------|----------|-----------------|-----------------|
+| Render | pass    | pass      | pass     | pass | pass     | pass            | pass            |
+| Images | pass    | pass      | pass     | pass | pass     | pass            | pass            |
+| Links  | pass    | pass      | pass     | pass | pass     | pass            | pass            |
+
+
 ## Browser Compatibility
 
-The IQ KIDS website can work properly on Google Chrome, Microsoft Edge, Safari.
+The IQ KIDS website can work properly on Google Chrome, Microsoft Edge and Safari. The site has the same functionality, appearance and responsiveness on different devices with different sizes.
 
 ## Known Bugs
 
@@ -295,3 +308,9 @@ The method for cloning a project from GitHub is described below:
 * Images were compressed using [Tynypng](https://tinypng.com/)
 
 [Back to top](<#contents>)
+
+### Acknowledgements
+
+I would like to acknowledge the [Code Institute](https://codeinstitute.net/) for the opportunity to work on such a project.
+It has been a challenging experience, but I have learned a lot.
+Special thanks goes to my family for their continued support and patience.
