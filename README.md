@@ -25,9 +25,9 @@ Visit the live website <a href="https://kseniasos.github.io/iq-kids/" target="_b
   - [Additional Testing](#additional-testing)
     - [Lighthouse](#lighthouse)
 - [Deployment](#deployment)
-    - [**To deploy the project**](#to-deploy-the-project)
-    - [**To fork the repository on GitHub**](#to-fork-the-repository-on-github)
-    - [**To create a local clone of this project**](#to-create-a-local-clone-of-this-project)
+    - [**Deploying the project**](#deploying-the-project)
+    - [**Forking the repository on GitHub**](#forking-the-repository-on-github)
+    - [**Creating a local clone of this project**](#creating-a-local-clone-of-this-project)
 - [Credits](#credits)
     - [Content](#content)
     - [Media](#media)
@@ -56,27 +56,27 @@ The IQ Kids site consists of 3 main pages: [Home page](index.html), [Our Program
 
 * ### Typography
   
-  The fonts chosen were '_Patua One_' for the headings and menu. '_Maven Pro_' is for the paragraph content.
+  The fonts chosen were '_Patua One_' for the headings and menu. '_Maven Pro_' was used for the paragraph content.
   
 * ### Colour Scheme
 
    This color palette is dominated by bright colors. They blend well without being overly flashy. IQ KIDS is a children's establishment, so I wanted to reflect children's bright emotions in colors. This is what IQ KIDS will hopefully be able to convey to the user.
 
-   There are the following colors that have been used on the website.
+   The following colors were used on the website.
 ![Colour Palate image](assets/readme-images/colors.png)
 
 [Back to top](<#contents>)
 
 # Features
 
-The IQ KIDS website is designed to be friendly and easy to use. Many functions such as the navigation and the form are familiar and understandable to the user and may be of interest to move further through the site.
+The IQ KIDS website is designed to be friendly and easy to use. Many functions, such as the navigation and the form, are familiar and understandable to the user and may be of interest to move further through the site.
 
 ## Existing Features  
 
 * ### Navigation Menu
 
-  * The full responsive navigation bar includes the clicable logo in the right side, that links back to the home page.  
-  * The Menu is on the left side, that links to different main pages of the website or different sections on the home page (contact).
+  * The full responsive navigation bar includes the clicable logo on the right side. It links back to the home page.  
+  * The Menu is on the left side. It links to different main pages of the website or different sections on the home page (contact).
   * This header is located at the top of every page.
 
 ![Navigation bar image](assets/readme-images/navbar.png)
@@ -103,7 +103,7 @@ The IQ KIDS website is designed to be friendly and easy to use. Many functions s
 
 * ### Contact Us
 
-  * This section contains the map and contact details (all data is fictitious for the project and is not valid).
+  * This section contains the map and contact details (the data is a work of fiction and is used for demonstrative purposes within the present project).
 
 ![Contact Us page image](assets/readme-images/contact.png)
 
@@ -111,7 +111,7 @@ The IQ KIDS website is designed to be friendly and easy to use. Many functions s
 
 * ### Footer
 
-  * The Footer includes social media icons. For the convenience of the user, the links open in other tabs. There users may find gallery and reviews of other clients on Instagram or Facebook and videos from events on Youtube.
+  * The Footer includes social media icons. For the convenience of the user, the links open in other tabs. There, users may find gallery and reviews of other clients on Instagram or Facebook and videos from events on Youtube.
   
 ![Footer image](assets/readme-images/social_media.png)
 
@@ -119,15 +119,15 @@ The IQ KIDS website is designed to be friendly and easy to use. Many functions s
 
 * ### Programs
   
-  * This section shows the user three programs, which differ in age, pricing and date of the events.
+  * This section shows the user three programs, which differ in age, pricing and event dates.
   * This section will be updated as these dates or pricing change to keep the user up to date.
 
 ![Programs image](assets/readme-images/programs.png)
 
 * ### Sign Up Form
   
-  * On the page with the form, the user can leave a request to sign up the event.
-  * The form consists of 5 input fields. The user needs to enter his own and the child's data. User also need to choose which group he wants to be in.
+  * On this page the user can leave a request to sign up for an event.
+  * The form consists of 5 input fields. The user needs to enter both his own and the child's data. In addition, the user also needs to choose which group he wants to be in.
 
 ![Sign up image](assets/readme-images/signup_form.png)
 
@@ -145,7 +145,7 @@ The IQ KIDS website is designed to be friendly and easy to use. Many functions s
 
 * ## Future features
 
-  * Gallery section, where the user can immediately see images of previous.events.
+  * Gallery section, where the user can immediately see images of previous events.
   * Review section, where the user will see the impressions of other users.
 
 [Back to top](<#contents>)
@@ -164,7 +164,7 @@ The IQ KIDS website is designed to be friendly and easy to use. Many functions s
 
 ## Code Validation
 
-The IQ KIDS website has be throughly tested. All HTML pages has been run through the [W3C html Validator](https://validator.w3.org/) and the CSS throught the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). Minor errors were found, after a fix and retest, no  more errors found.
+The IQ KIDS website has been throughly tested. All HTML pages have been run through the [W3C html Validator](https://validator.w3.org/) and the CSS throught the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). Minor errors were found, after fixing and retesting, no more errors found.
 
 The HTML validator results for each page are below:
 
@@ -202,9 +202,10 @@ The IQ KIDS website can work properly on Google Chrome, Microsoft Edge, Safari.
 
 * ### Resolved
 
-   Bugs were found during the validationa, brief description is below:
+   Bugs were found during the validation and a brief description is provided below:
 
     * Home page  
+    Top-level heading _h1_ was used in all sections and pages, which is not a good practice. Therefore, it was corrected accordingly.
     
     ![W3C Validator test result](assets/readme-images/html-test.png)
   
@@ -219,13 +220,16 @@ The IQ KIDS website can work properly on Google Chrome, Microsoft Edge, Safari.
     ![W3C Validator test result](assets/readme-images/form-test.png)
 
     * CSS
-    There was a margin without unt. It was easily fixed by adding unit after margin number.
+    There was a margin without unit. It was easily fixed by adding unit after margin number.
   
     ![W3C Validator test result](assets/readme-images/css-test.png)
     
 * ### Unresolved
 
     * CSS
+    A media component related error was discovered:
+    'Import statements do not load in parallel css (importStatement)'.
+    A solution is being pursued.
     
     ![W3C Validator test result](assets/readme-images/bug_css.png)
 
@@ -239,39 +243,39 @@ The site has also been tested by [Google Lighthouse](https://developers.google.c
 
 # Deployment
 
-### **To deploy the project**
+### **Deploying the project**
 
-The site was deployed to GitHub pages. The steps to deploy a site are as follows:
+The site was deployed for GitHub pages. The steps to deploy this site are as follows:
 
   1. In the GitHub repository, navigate to the **Settings** tab.
   2. Once in Settings, navigate to the **Pages** tab on the left hand side.
   3. Under **Source**, select the branch to **main**, then click **save**.
-  4. Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+  4. Once the main branch has been selected, the page will automatically be refreshed with a detailed ribbon display to indicate the successful deployment.
 
 ![GitHub pages deployed image](assets/readme-images/deployment.png)
 
   The live link to the Github repository can be found here -  <https://kseniasos.github.io/iq-kids/>
 
-### **To fork the repository on GitHub**
+### **Forking the repository on GitHub**
 
-A copy of the GitHub Repository can be made by forking the GitHub account. This copy can be viewed and changes can be made to the copy without affecting the original repository. Take the following steps to fork the repository;
+A copy of the GitHub Repository can be made by forking the GitHub account. This copy can be viewed and changes can be made to the copy without affecting the original repository. Take the following steps to fork the repository:
 
 1. Log in to **GitHub** and locate the [repository](https://kseniasos.github.io/iq-kids/).
 2. On the right hand side of the page inline with the repository name is a button called **'Fork'**, click on the button to create a copy of the original repository in your GitHub Account.
 
 ![GitHub forking process image](assets/readme-images/forking.png)
 
-### **To create a local clone of this project**
+### **Creating a local clone of this project**
 
-The method from cloning a project from GitHub is below:
+The method for cloning a project from GitHub is described below:
 
 1. Under the repository’s name, click on the **code** tab.
 2. In the **Clone with HTTPS** section, click on the clipboard icon to copy the given URL.
    
-![Cloning image](assets/readme-images/local-clone.png)
+![Cloning the image](assets/readme-images/local-clone.png)
 
 1. In your IDE of choice, open **Git Bash**.
-2. Change the current working directory to the location where you want the cloned directory to be made.
+2. Change the current working directory to the location where you want the cloned directory to be created.
 3. Type **git clone**, and then paste the URL copied from GitHub.
 4. Press **enter** and the local clone will be created.
 
