@@ -85,7 +85,7 @@ body {
     position: absolute;
     text-align: center;
     padding-left: 18%;
-    text-shadow: 0 3px 0px #252424, 0 10px 0 #ECF0EF;
+    text-shadow: 0 3px 0px #252424, -2px 3px 0 #e7e7e7;
 }
 
 /* about us */
