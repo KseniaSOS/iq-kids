@@ -172,19 +172,15 @@ The HTML validator results for each page are below:
 
 ![W3C Validator test result](assets/readme-images/w3c-testing.png)
 
-* Projects page
+* Our Programs page
 
 ![W3C Validator test result](assets/readme-images/w3c-testing.png)
 
-* Inspiration page
+* Sign Up Form page
 
 ![W3C Validator test result](assets/readme-images/w3c-testing.png)
 
-* Contact page
-
-![W3C Validator test result](assets/readme-images/w3c-testing.png)
-
-* Form valiadtion page
+* Form Confirmation page
 
 ![W3C Validator test result](assets/readme-images/w3c-testing.png)
 
