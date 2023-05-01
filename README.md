@@ -90,7 +90,7 @@ The IQ KIDS website is designed to be friendly and easy to use. Many functions, 
   * The landing page includes an image with text overlay so that the user can see what the site has to offer.
   * The image of pencils may be associated by the user with creativity or study.
 
-  ![Landing page image](assets/readme-images/main-image.png)
+  ![Landing page image](assets/readme-images/echo-image.jpg)
   
 [Back to top](<#contents>)
 
