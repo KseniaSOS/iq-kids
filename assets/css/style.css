@@ -423,6 +423,10 @@ li {
     iframe {
         height: 300px;
     }
+
+    #form-container {
+        background-image: url('../images/mobile-form.jpg');
+    }
 }
 
 
